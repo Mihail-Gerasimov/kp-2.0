@@ -1,0 +1,264 @@
+@media (max-width: 1600px) {
+    /* header */
+    .magnit {
+        width: 670px;
+        bottom: 90px;
+    }
+    /* header */
+    /* advantages */
+    /* advantages */
+    /* about-us */
+    /* about-us */
+    /* cases */
+    /* cases */
+    /* working */
+    /* working */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 1450px) {
+    /* header */
+    .navigation {
+        margin-bottom: 40px;
+    }
+    .logo-big {
+        width: 250px;
+    }
+    .header-title {
+        font-size: 40px;
+        width: 540px;
+    }
+    .header-title span {
+        font-size: 55px;
+        line-height: 50px;
+    }
+    .header-info {
+        margin-bottom: 65px;
+    }
+    .header-list {
+        margin-bottom: 65px;
+    }
+    .list__item {
+        font-size: 25px;
+        line-height: 105%;
+    }
+    .list__item::before {
+        top: 1px;
+    }
+    .magnit {
+        width: 570px;
+        bottom: 55px;
+    }
+    /* header */
+    /* advantages */
+    /* advantages */
+    /* about-us */
+    /* about-us */
+    /* cases */
+    /* cases */
+    /* working */
+    /* working */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 1200px) {
+    /* header */
+    .navigation {
+        margin-bottom: 20px;
+    }
+    .nav-number {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .nav-number::before {
+        background-repeat: no-repeat;
+        top: 0px;
+        left: -30px;
+        width: 25px;
+        height: 25px;
+        background-size: 25px;
+    }
+    .logo-big {
+        width: 190px;
+    }
+    .header-title {
+        font-size: 35px;
+        width: 440px;
+    }
+    .header-title span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .header-list {
+        margin-bottom: 50px;
+    }
+    .list__item {
+        font-size: 20px;
+        line-height: 105%;
+    }
+    .list__item::before {
+        top: 2px;
+        left: -25px;
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+        background-repeat: no-repeat;
+    }
+    .header-btn {
+        width: 280px;
+    }
+    .magnit {
+        width: 520px;
+        bottom: 55px;
+    }
+    /* header */
+    /* advantages */
+    /* advantages */
+    /* about-us */
+    /* about-us */
+    /* cases */
+    /* cases */
+    /* working */
+    /* working */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 1100px) {
+    .magnit {
+        width: 400px;
+        bottom: 88px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* header */
+    .navigation {
+        margin-bottom: 0px;
+    }
+    .logo-big {
+        width: 130px;
+    }
+    .header-title {
+        font-size: 30px;
+        width: 390px;
+    }
+    .header-title span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .header-list {
+        margin-bottom: 45px;
+    }
+    .list__item {
+        font-size: 17px;
+        line-height: 105%;
+    }
+    .list__item::before {
+        top: 2px;
+        left: -20px;
+        width: 12px;
+        height: 12px;
+        background-size: 12px;
+    }
+    .magnit {
+        bottom: 80px;
+    }
+    /* header */
+    /* advantages */
+    /* advantages */
+    /* about-us */
+    /* about-us */
+    /* cases */
+    /* cases */
+    /* working */
+    /* working */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 850px) {
+    .magnit {
+        bottom: 105px;
+        width: 315px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* header */
+    .navigation {
+        margin-bottom: 15px;
+    }
+    .logo-mobile {
+        width: 80px;
+    }
+    .magnit {
+        bottom: 90px;
+        width: 350px;
+    }
+    /* header */
+    /* advantages */
+    /* advantages */
+    /* about-us */
+    /* about-us */
+    /* cases */
+    /* cases */
+    /* working */
+    /* working */
+    /* footer */
+    /* footer */
+}
+
+@media (max-width: 650px) {
+    .magnit {
+        bottom: 115px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 575px) {
+    /* header */
+    .nav-number {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .nav-number::before {
+        width: 22px;
+        height: 23px;
+        background-size: 22px;
+    }
+    .header-title {
+        font-size: 25px;
+        width: 270px;
+    }
+    .header-title span {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .header-list {
+        margin-bottom: 220px;
+    }
+    .list__item {
+        width: 250px;
+    }
+    .list__item::before {
+        left: -18px;
+    }
+    .magnit {
+        bottom: 150px;
+        width: 440px;
+    }
+    /* header */
+    /* advantages */
+    /* advantages */
+    /* about-us */
+    /* about-us */
+    /* cases */
+    /* cases */
+    /* working */
+    /* working */
+    /* footer */
+    /* footer */
+}

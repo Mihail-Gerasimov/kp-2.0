@@ -1,0 +1,263 @@
+/* base */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: .2s;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+html,
+body {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #fff;
+}
+
+a,
+a:hover {
+    cursor: pointer !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer !important;
+}
+
+input:hover,
+button:hover {
+    cursor: pointer !important;
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    cursor: pointer !important;
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width: 1450px) {
+    .container {
+        max-width: 1400px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 992px;
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 576px;
+        padding: 0 20px 0 20px;
+    }
+}
+
+.btn-red {
+    padding: 15px 0;
+    background: #CE2F27;
+    box-shadow: -1px 1px 2px rgba(98, 35, 35, 0.2), 1px -1px 2px rgba(98, 35, 35, 0.2), -1px -1px 2px rgba(255, 141, 141, 0.9), 1px 1px 3px rgba(98, 35, 35, 0.9), inset 1px 1px 2px rgba(255, 141, 141, 0.3), inset -1px -1px 2px rgba(98, 35, 35, 0.5);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.btn-red:hover {
+    box-shadow: rgb(53, 41, 226, 0.5);
+    transition: 0.3s;
+    background: #3529e2;
+    border-radius: 0px;
+}
+
+.btn-red:focus {
+    box-shadow: rgb(53, 41, 226, 0.5);
+    transition: 0.3s;
+    background: #3529e2;
+    border-radius: 0px;
+}
+
+
+/* base */
+
+
+/* header */
+
+.header {
+    background: #142239;
+    z-index: 0;
+}
+
+.navigation {
+    margin-bottom: 70px;
+}
+
+.nav-number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.nav-number::before {
+    position: absolute;
+    display: table;
+    content: '';
+    top: 0px;
+    left: -40px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/header/mini-phone.png);
+}
+
+.magnit {
+    max-height: 560px;
+    z-index: -1;
+    bottom: 50px;
+    right: 0;
+}
+
+.header-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 100.01%;
+    width: 700px;
+}
+
+.header-title span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 65px;
+}
+
+.header-list {
+    margin-bottom: 65px;
+}
+
+.list__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 110%;
+}
+
+.list__item::before {
+    position: absolute;
+    display: table;
+    content: '';
+    top: 5px;
+    left: -30px;
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/header/check.svg);
+}
+
+.header-info {
+    margin-bottom: 120px;
+}
+
+.header-btn {
+    width: 360px;
+}
+
+
+/* header */
+
+
+/* advantages */
+
+
+/* advantages */
+
+
+/* about-us */
+
+
+/* about-us */
+
+
+/* cases */
+
+
+/* cases */
+
+
+/* working */
+
+
+/* working */
+
+
+/* footer */
+
+
+/* footer */
