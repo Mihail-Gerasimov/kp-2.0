@@ -1,3 +1,12 @@
+@media (max-width: 1700px) {
+    /* advantages */
+    .plane {
+        width: 480px;
+        bottom: -100px;
+    }
+    /* advantages */
+}
+
 @media (max-width: 1600px) {
     /* header */
     .magnit {
@@ -6,6 +15,10 @@
     }
     /* header */
     /* advantages */
+    .plane {
+        width: 350px;
+        bottom: -40px;
+    }
     /* advantages */
     /* about-us */
     /* about-us */

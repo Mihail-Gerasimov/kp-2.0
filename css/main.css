@@ -144,6 +144,14 @@ button:focus {
     border-radius: 0px;
 }
 
+.general-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 105%;
+    color: #CE2F27;
+}
+
 
 /* base */
 
@@ -234,6 +242,48 @@ button:focus {
 
 
 /* advantages */
+
+.advantages {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.advantages-title {
+    margin-bottom: 60px;
+}
+
+.advantages__item {
+    max-width: 360px;
+}
+
+.advantages__subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: #142239;
+}
+
+.advantages__info {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #142239;
+    max-width: 360px;
+}
+
+.advantages-btn {
+    width: 330px;
+    height: 60px;
+    transform: translateX(5%);
+}
+
+.plane {
+    z-index: 100;
+    right: 0;
+    bottom: -190px;
+}
 
 
 /* advantages */
