@@ -65,6 +65,23 @@
     }
     /* header */
     /* advantages */
+    .advantages__item {
+        max-width: 285px;
+    }
+    .advantages__subtitle {
+        font-size: 18px;
+    }
+    .advantages__info {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 285px;
+    }
+    .advantages-btn {
+        width: 285px;
+    }
+    .advantages__item--top img {
+        width: 65px;
+    }
     /* advantages */
     /* about-us */
     /* about-us */
@@ -128,6 +145,14 @@
     }
     /* header */
     /* advantages */
+    .advantages {
+        margin-top: 80px;
+        margin-bottom: 90px;
+    }
+    .plane {
+        width: 255px;
+        bottom: 60px;
+    }
     /* advantages */
     /* about-us */
     /* about-us */
@@ -144,6 +169,11 @@
         width: 400px;
         bottom: 88px;
     }
+    /* advantages */
+    .plane {
+        display: none;
+    }
+    /* advantages */
 }
 
 @media (max-width: 992px) {
@@ -181,6 +211,9 @@
     }
     /* header */
     /* advantages */
+    .advantages-btn {
+        transform: translateX(0%);
+    }
     /* advantages */
     /* about-us */
     /* about-us */
@@ -213,6 +246,13 @@
     }
     /* header */
     /* advantages */
+    .advantages {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .advantages-title {
+        margin-bottom: 40px;
+    }
     /* advantages */
     /* about-us */
     /* about-us */
@@ -265,6 +305,23 @@
     }
     /* header */
     /* advantages */
+    .advantages__item {
+        max-width: 230px;
+    }
+    .advantages__item--top img {
+        width: 55px;
+    }
+    .advantages__subtitle {
+        font-size: 15px;
+    }
+    .advantages__info {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 230px;
+    }
+    .advantages-btn {
+        width: 230px;
+    }
     /* advantages */
     /* about-us */
     /* about-us */
@@ -274,4 +331,16 @@
     /* working */
     /* footer */
     /* footer */
+}
+
+@media (max-width: 425px) {
+    .advantages-block {
+        align-items: flex-start !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .advantages-btn {
+        width: 100%;
+    }
 }
