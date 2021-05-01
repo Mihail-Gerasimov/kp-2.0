@@ -337,15 +337,15 @@
     .advantages-block {
         align-items: flex-start !important;
     }
-}
-
-@media (max-width: 375px) {
     .advantages__item {
         max-width: fit-content;
     }
     .advantages__info {
         max-width: initial;
     }
+}
+
+@media (max-width: 375px) {
     .advantages-btn {
         width: 100%;
     }
