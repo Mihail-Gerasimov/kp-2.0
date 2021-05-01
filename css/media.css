@@ -155,6 +155,18 @@
     }
     /* advantages */
     /* about-us */
+    .about-title {
+        margin-bottom: 55px;
+    }
+    .about__item {
+        margin-right: 70px;
+    }
+    .about-info {
+        font-size: 19px;
+    }
+    .job-woman {
+        max-width: 400px;
+    }
     /* about-us */
     /* cases */
     /* cases */
@@ -216,6 +228,15 @@
     }
     /* advantages */
     /* about-us */
+    .about-title {
+        margin-bottom: 40px;
+    }
+    .about-info {
+        font-size: 16px;
+    }
+    .job-woman {
+        width: 350px;
+    }
     /* about-us */
     /* cases */
     /* cases */
@@ -255,6 +276,15 @@
     }
     /* advantages */
     /* about-us */
+    .about__item {
+        margin-right: 30px;
+    }
+    .about-info {
+        font-size: 14px;
+    }
+    .job-woman {
+        width: 310px;
+    }
     /* about-us */
     /* cases */
     /* cases */
@@ -269,6 +299,17 @@
         bottom: 115px;
         width: 280px;
     }
+    /* about-us */
+    .about-title {
+        margin-bottom: 15px;
+    }
+    .about-info {
+        font-size: 12px;
+    }
+    .job-woman {
+        width: 300px;
+    }
+    /* about-us */
 }
 
 @media (max-width: 575px) {
@@ -324,6 +365,19 @@
     }
     /* advantages */
     /* about-us */
+    .about__item {
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+    .about-title {
+        margin-bottom: 40px;
+    }
+    .about-info {
+        font-size: 14px;
+    }
+    .job-woman {
+        width: 280px;
+    }
     /* about-us */
     /* cases */
     /* cases */
