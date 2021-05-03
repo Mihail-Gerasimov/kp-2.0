@@ -300,10 +300,17 @@ button:focus {
 
 /* advantages */
 
+.dfdf {
+    position: fixed;
+    width: 100%;
+    max-width: inherit;
+}
+
 
 /* about-us */
 
 .about-us {
+    margin-bottom: 95px;
     padding: 30px 0 50px 0;
     background: #F4F9FF;
 }
@@ -330,6 +337,68 @@ button:focus {
 
 
 /* cases */
+
+.cases {
+    margin-bottom: 85px;
+}
+
+.title-cases {
+    width: 435px;
+    transform: rotate( -90deg);
+    left: -30px;
+    top: 160px;
+}
+
+.cases-nubber {
+    width: fit-content;
+    background: #F4F9FF;
+    border-radius: 5px;
+    width: 156px;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.title-cases__mobile {
+    color: #ED5B65;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.cases-block {
+    margin-bottom: 90px;
+}
+
+.block__cities {
+    height: 340px;
+    position: sticky;
+    top: 0;
+    margin-right: 170px;
+    padding-top: 25px;
+}
+
+.cities-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #142239;
+    margin-bottom: 70px;
+}
+
+.applications-per-month__item {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 110%;
+    color: #142239;
+}
+
+.block-statistics img {
+    padding: 30px;
+    background: #F4F9FF;
+    border-radius: 10px;
+}
 
 
 /* cases */
