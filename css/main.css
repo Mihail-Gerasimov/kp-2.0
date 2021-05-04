@@ -546,3 +546,149 @@ button:focus {
 
 
 /* footer */
+
+
+/* modal */
+
+.modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+}
+
+.modal-content {
+    z-index: 0;
+}
+
+.btn-close {
+    background: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 125%;
+    text-decoration-line: underline;
+    color: #B4B4B4;
+    width: fit-content;
+}
+
+.modal-text__width {
+    width: 420px;
+}
+
+.style-input {
+    border: 1px solid #C8C8C8;
+    max-width: 375px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C4C4C4;
+}
+
+.style-input:hover {
+    border: 1px solid #C8C8C8;
+}
+
+.style-input:focus {
+    border: 1px solid #C8C8C8;
+}
+
+.label-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.real-radio {
+    display: none;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+    background: #142239;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-radio img {
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-27%, 35%);
+}
+
+.custom-radio--text {
+    width: 190px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #142239;
+}
+
+.label-radio input:checked+.custom-radio {
+    background: #5070a3;
+}
+
+.modal-btn {
+    width: 230px;
+}
+
+form {
+    margin-bottom: 70px;
+}
+
+.magnit-modal {
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.modal-thanks {
+    z-index: 20;
+    background: #FFFFFF;
+    position: fixed;
+    width: 400px;
+    height: 550px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    box-shadow: -3px -6px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 105%;
+    text-align: center;
+    color: #CE2F27;
+}
+
+.modal-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #293352;
+}
+
+.closed {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 125%;
+    text-decoration-line: underline;
+    color: #B4B4B4;
+    top: 15px;
+    right: 15px;
+}
+
+
+/* modal */

@@ -344,6 +344,18 @@
     /* working */
     /* footer */
     /* footer */
+    /* modal */
+    .modal-dialog {
+        max-width: fit-content;
+        margin: 1.75rem auto;
+    }
+    .modal-text__width {
+        width: 330px;
+    }
+    form {
+        margin-bottom: 40px;
+    }
+    /* modal */
 }
 
 @media (max-width: 850px) {
@@ -641,6 +653,28 @@
         line-height: 125%;
     }
     /* footer */
+    /* modal */
+    .modal-dialog {
+        max-width: 310px;
+    }
+    .modal-text__width {
+        width: 255px;
+    }
+    .modal-btn {
+        width: 100%;
+    }
+    .modal-thanks {
+        width: 310px;
+        height: 490px;
+    }
+    .modal-title {
+        font-size: 38px;
+    }
+    .modal-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    /* modal */
 }
 
 @media (max-width: 425px) {
