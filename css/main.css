@@ -405,6 +405,46 @@ button:focus {
 
 /* working */
 
+.working {
+    padding-top: 70px;
+    padding-bottom: 95px;
+    margin-bottom: 80px;
+    background: #F4F9FF;
+}
+
+.working-title {
+    margin-bottom: 120px;
+}
+
+.stages {
+    margin-bottom: 100px;
+}
+
+.stages-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #142239;
+}
+
+.stages-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #142239;
+    width: 340px;
+}
+
+.working-btn {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
 
 /* working */
 
