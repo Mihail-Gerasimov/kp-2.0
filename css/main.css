@@ -350,7 +350,6 @@ button:focus {
 }
 
 .cases-nubber {
-    width: fit-content;
     background: #F4F9FF;
     border-radius: 5px;
     width: 156px;

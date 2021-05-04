@@ -5,6 +5,11 @@
         bottom: -100px;
     }
     /* advantages */
+    /* cases */
+    .title-cases {
+        left: -130px;
+    }
+    /* cases */
 }
 
 @media (max-width: 1600px) {
@@ -23,6 +28,12 @@
     /* about-us */
     /* about-us */
     /* cases */
+    .title-cases {
+        left: -180px;
+    }
+    .block__cities {
+        margin-right: 100px;
+    }
     /* cases */
     /* working */
     /* working */
@@ -86,11 +97,43 @@
     /* about-us */
     /* about-us */
     /* cases */
+    .block__cities {
+        height: 310px;
+        width: 285px;
+        margin-right: 75px;
+    }
+    .cases-nubber {
+        width: 130px;
+    }
+    .applications-per-month__item {
+        font-size: 20px;
+    }
+    .cities-title {
+        margin-bottom: 45px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .title-cases {
+        width: auto;
+        transform: none;
+        left: auto;
+        top: auto;
+        position: inherit !important;
+        margin-bottom: 70px;
+    }
     /* cases */
     /* working */
     /* working */
     /* footer */
     /* footer */
+}
+
+@media (max-width: 1399px) {
+    .block__cities {
+        height: 310px;
+        width: fit-content;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -169,6 +212,10 @@
     }
     /* about-us */
     /* cases */
+    .block-statistics img {
+        width: 720px;
+        padding: 20px;
+    }
     /* cases */
     /* working */
     /* working */
@@ -186,6 +233,15 @@
         display: none;
     }
     /* advantages */
+    /* cases */
+    .applications-per-month__item {
+        font-size: 16px;
+    }
+    .block-statistics img {
+        width: 640px;
+        padding: 10px;
+    }
+    /* cases */
 }
 
 @media (max-width: 992px) {
@@ -239,6 +295,20 @@
     }
     /* about-us */
     /* cases */
+    .cases-nubber {
+        width: 95px;
+    }
+    .cities-title {
+        margin-bottom: 35px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .block__cities {
+        height: 240px;
+    }
+    .block-statistics img {
+        width: 590px;
+    }
     /* cases */
     /* working */
     /* working */
@@ -251,6 +321,11 @@
         bottom: 105px;
         width: 315px;
     }
+    /* cases */
+    .block-statistics img {
+        width: 500px;
+    }
+    /* cases */
 }
 
 @media (max-width: 767px) {
@@ -287,6 +362,25 @@
     }
     /* about-us */
     /* cases */
+    .block-statistics img {
+        width: 420px;
+    }
+    .title-cases {
+        margin-bottom: 40px;
+    }
+    .cities-title {
+        margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .cases-nubber {
+        padding: 12px 0;
+        width: 60px;
+    }
+    .block__cities {
+        height: 190px;
+        padding-top: 10px;
+    }
     /* cases */
     /* working */
     /* working */
@@ -310,6 +404,15 @@
         width: 300px;
     }
     /* about-us */
+    /* cases */
+    .cities-title {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .block-statistics img {
+        width: 330px;
+    }
+    /* cases */
 }
 
 @media (max-width: 575px) {
@@ -378,8 +481,40 @@
     .job-woman {
         width: 280px;
     }
+    .about-us {
+        margin-bottom: 30px;
+    }
     /* about-us */
     /* cases */
+    .cases {
+        margin-bottom: 30px;
+    }
+    .block__cities {
+        height: auto;
+        position: inherit;
+        margin-right: 0px;
+        padding-top: 0px;
+        margin-bottom: 15px;
+    }
+    .cities-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .block-statistics img {
+        width: auto;
+    }
+    .cases-block {
+        margin-bottom: 40px;
+    }
+    .cases-nubber {
+        width: 170px;
+    }
+    .applications-per-month__item br {
+        display: none;
+    }
+    .applications-per-month__item {
+        width: 190px;
+    }
     /* cases */
     /* working */
     /* working */
