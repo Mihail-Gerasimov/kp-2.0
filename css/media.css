@@ -123,6 +123,9 @@
     }
     /* cases */
     /* working */
+    .next-stages {
+        right: 0;
+    }
     /* working */
     /* footer */
     /* footer */
@@ -242,6 +245,33 @@
         padding: 10px;
     }
     /* cases */
+    /* working */
+    .next-stages {
+        display: none;
+    }
+    /* working */
+    /* contacts */
+    .contacts-title {
+        font-size: 60px;
+    }
+    .contacts-text {
+        font-size: 20px;
+        line-height: 24px;
+        width: 430px;
+    }
+    .messenger-item {
+        margin-right: 40px;
+    }
+    .contacts-number {
+        font-size: 25px;
+    }
+    .important {
+        padding: 30px;
+    }
+    .important-text {
+        width: 220px;
+    }
+    /* contacts */
 }
 
 @media (max-width: 992px) {
@@ -326,6 +356,37 @@
         width: 500px;
     }
     /* cases */
+    /* contacts */
+    .social {
+        width: 40px;
+    }
+    .contacts-number {
+        font-size: 16px;
+    }
+    .contacts-title {
+        font-size: 45px;
+    }
+    .contacts-text {
+        font-size: 16px;
+        line-height: 19px;
+        width: 340px;
+    }
+    .messenger-item {
+        margin-right: 35px;
+    }
+    .important {
+        padding: 25px;
+    }
+    .important-title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .important-text {
+        width: 195px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    /* contacts */
 }
 
 @media (max-width: 767px) {
@@ -387,6 +448,19 @@
         margin-bottom: 80px;
     }
     /* working */
+    /* comtacts */
+    .contacts {
+        padding-bottom: 40px;
+    }
+    .contacts-information {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .messenger-item {
+        margin-right: 0px;
+        margin-bottom: 35px;
+    }
+    /* comtacts */
     /* footer */
     /* footer */
 }
@@ -535,7 +609,37 @@
         margin-bottom: 40px;
     }
     /* working */
+    /* contacts */
+    .contacts-information {
+        margin-bottom: 35px;
+        text-align: start;
+    }
+    .contacts-text {
+        width: auto;
+    }
+    .messenger-item {
+        margin-bottom: 25px;
+    }
+    .important {
+        padding: 35px;
+    }
+    .important-text {
+        width: 195px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .contacts-title {
+        font-size: 30px;
+    }
+    .contacts-number {
+        font-size: 20px;
+    }
+    /* contacts */
     /* footer */
+    .footer-text {
+        font-size: 14px;
+        line-height: 125%;
+    }
     /* footer */
 }
 

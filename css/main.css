@@ -441,15 +441,108 @@ button:focus {
 
 .working-btn {
     width: 400px;
-    margin: 0 auto;
     display: block;
+}
+
+.next-stages {
+    right: -40px;
+    top: 35px;
 }
 
 
 /* working */
 
 
+/* contacts */
+
+.contacts {
+    padding-bottom: 80px;
+}
+
+.contacts-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #293352;
+    width: 705px;
+}
+
+.messenger-item {
+    margin-right: 110px;
+}
+
+.social {
+    transition: 0.4s;
+}
+
+.social:hover {
+    transition: 0.4s;
+    transform: scale(1.08);
+}
+
+.contacts-number {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 130%;
+    color: #EF4F45;
+    transition: 0.4s;
+}
+
+.contacts-number:hover {
+    transition: 0.4s;
+    transform: scale(1.02);
+    color: #EF4F45;
+}
+
+.important {
+    padding: 65px 30px 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.important-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #CE2F27;
+}
+
+.important-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #142239;
+}
+
+.important-text span {
+    font-weight: 700;
+}
+
+
+/* contacts */
+
+
 /* footer */
+
+.footer {
+    padding: 40px 0;
+    background: #142239;
+}
+
+.footer-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 125%;
+    text-align: center;
+}
 
 
 /* footer */
